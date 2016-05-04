@@ -15,7 +15,19 @@
 
   "frameworks": {
     "dnx451": { },
-    "dnxcore50": { }
+    "dnxcore50": {
+      "dependencies": {
+        "System.Runtime": "4.0.21-*",
+        "Microsoft.CSharp": "4.0.1-*",
+        "System.Collections": "4.0.11-*",
+        "System.Console": "4.0.0-*",
+        "System.Linq": "4.0.1-*",
+        "System.Threading": "4.0.11-*",
+        "System.Threading.Thread": "4.0.0-*",
+        "System.Threading.Tasks.Parallel": "4.0.1-*",
+        "System.Numerics.Vectors": "4.1.1-*"
+      }
+    }
   },
 
   "exclude": [
